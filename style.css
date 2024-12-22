@@ -19,15 +19,17 @@ body {
     background-color: hsl(0, 0%, 100%);
     border-radius: 20px;
     display: flex;
-    justify-content: center;
+    align-items: center;
     flex-direction: column;
-
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
 
 .box img{
     width: 260px;
-    height: 240px;
-    margin: 20px;
+    height: 240px; 
     border-radius: 20px;
 }
+
