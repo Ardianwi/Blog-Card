@@ -33,23 +33,24 @@ body {
 }
 main {
   padding-left: 20px;
-  margin-top: 10px;
+  margin-top: 15px;
   line-height: 2;
-  width: 80%;
+  width: 90%;
 }
 
 button {
   font-weight: bold;
-  padding: 7px;
+  padding: 10px;
   background-color: #f4d04e;
   border-radius: 4px;
   border: none;
   margin-bottom: 10px;
+  font-size: 16px;
 }
 
 main p {
   /* margin-top: 10px; */
-  font-size: 14px;
+  font-size: 15px;
 }
 
 main a {
@@ -66,7 +67,6 @@ footer {
 span.gambaravatar img {
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 .gambaravatar img {
   width: 32px;
