@@ -69,8 +69,6 @@ span.gambaravatar img {
 .gambaravatar img {
   width: 32px;
   height: 32px;
-  display: flex;
-  align-items: center;
 }
 footer p {
   font-size: 14px;
