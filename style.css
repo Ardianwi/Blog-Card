@@ -17,7 +17,7 @@ body {
   border: 1px solid #111111;
   border-radius: 20px;
   margin: auto;
-  box-shadow: 15px 15px #111111;
+  box-shadow: 10px 10px #111111;
   background-color: #ffffff;
   /* padding: 10px; */
 }
@@ -42,7 +42,9 @@ button {
   border-radius: 4px;
   border: none;
 }
-
+main {
+  width: 80%;
+}
 main p {
   /* margin-top: 10px; */
   font-size: 14px;
@@ -59,9 +61,16 @@ footer {
   display: flex;
   align-items: center;
 }
+span.gambaravatar img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .gambaravatar img {
   width: 32px;
   height: 32px;
+  display: flex;
+  align-items: center;
 }
 footer p {
   font-size: 14px;
