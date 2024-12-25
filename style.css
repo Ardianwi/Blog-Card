@@ -33,9 +33,9 @@ body {
 }
 main {
   padding-left: 20px;
-  margin-top: 15px;
-  line-height: 2;
-  width: 90%;
+  margin-top: 20px;
+  /* line-height: 2; */
+  /* width: 90%; */
 }
 
 button {
@@ -67,6 +67,7 @@ footer {
 span.gambaravatar img {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .gambaravatar img {
   width: 32px;
