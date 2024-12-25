@@ -34,8 +34,8 @@ body {
 main {
   padding-left: 20px;
   margin-top: 20px;
-  /* line-height: 2; */
-  /* width: 90%; */
+  line-height: 1.5;
+  width: 90%;
 }
 
 button {
