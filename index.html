@@ -3,35 +3,36 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap"
       rel="stylesheet"
     />
-    <title>Blog Preview Card</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Blog Card With Flexbox</title>
   </head>
   <body>
-    <section role="container">
-      <header role="header">
-        <img src="/assets/images/illustration-article.svg" alt="blogcard" />
-      </header>
-      <main role="main">
-        <button>Learning</button>
-        <p>Published 21 Dec 2023</p>
-        <a href="#"><h1>HTML & CSS Foundations</h1></a>
-        <p>
-          These Languange are the backbone of every website, defining structure
-          ,content, and presentation
-        </p>
-      </main>
-      <footer role="footer">
-        <span class="gambaravatar"
-          ><img src="/assets/images/image-avatar.webp" alt="avatar"
-        /></span>
-        <p class="title">Greg Hooper</p>
-      </footer>
-    </section>
+    <div class="box">
+      <div class="imageheader">
+        <img src="/assets/images/illustration-article.svg" alt="imageheader" />
+      </div>
+      <div class="text">
+        <button class="learning">Learning</button>
+        <p class="publishtext">Published 21 Dec 2023</p>
+        <a href=""><h1 class="htmle">HTML & CSS foundations</h1></a>
+        <div class="foundation">
+          These Language are the backbone of every website, defining structure,
+          content, and presentation.
+        </div>
+      </div>
+      <div class="notif">
+        <div class="gambar">
+          <img src="/assets/images/image-avatar.webp" alt="avatar" />
+        </div>
+        <div class="tulisan"><p>Greg Hooper</p></div>
+      </div>
+    </div>
   </body>
 </html>
