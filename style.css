@@ -62,7 +62,10 @@ body {
   font-size: 24px;
   color: #111111;
   margin-bottom: 12px;
-  font-weight: bolder;
+  font-family: "Figtree", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
 }
 .text a {
   text-decoration: none;
@@ -89,8 +92,11 @@ body {
   border-radius: 50%;
 }
 
-.notif .caption p {
+.text-caption p {
   font-size: 14px;
-  font-weight: bold;
+  font-family: "Figtree", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
   display: flex;
 }
