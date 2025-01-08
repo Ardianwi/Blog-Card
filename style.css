@@ -20,6 +20,7 @@ body {
   box-shadow: 8px 8px #111111;
   border: 1px solid #000;
   background-color: #fff;
+  box-sizing: border-box;
 }
 
 .imageheader img {
