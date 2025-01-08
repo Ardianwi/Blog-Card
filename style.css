@@ -83,13 +83,13 @@ body {
   margin-top: 24px;
 }
 
-.gambar img {
+.image-avatar img {
   width: 32px;
   height: 32px;
   border-radius: 50%;
 }
 
-.notif .tulisan p {
+.notif .caption p {
   font-size: 14px;
   font-weight: bold;
   display: flex;
