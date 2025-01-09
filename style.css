@@ -65,6 +65,7 @@ body {
   font-optical-sizing: auto;
   font-weight: 900;
   font-style: normal;
+  line-height: 150%;
 }
 .text a {
   text-decoration: none;
@@ -75,6 +76,7 @@ body {
 .foundation {
   color: #6b6b6b;
   line-height: 150%;
+  font-size: 16px;
 }
 
 .notif {
