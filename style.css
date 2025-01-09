@@ -91,7 +91,7 @@ body {
   border-radius: 50%;
 }
 
-.text-caption p {
+.text-caption {
   font-size: 14px;
   font-family: "Figtree", serif;
   font-optical-sizing: auto;
